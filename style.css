@@ -117,3 +117,16 @@ footer {
   text-align: center;
   margin-top: 28px;
 }
+footer p { margin: 0 0 6px; }
+footer .tm { font-size: 12px; }
+
+.stores a {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  color: var(--ink);
+  text-decoration: none;
+}
+.stores a::after { content: "\2192"; color: var(--green-ink); margin-left: auto; }
+.stores strong { flex: none; }
+.stores span { color: var(--muted); font-size: 14px; }
